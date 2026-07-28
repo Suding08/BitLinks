@@ -38,7 +38,7 @@ function Shorten() {
   }
 
   return (
-    <div className='mx-auto mx-w-lg bg-purple-100 my-12 p-8 rounded-xl flex flex-col gap-4 w-100'>
+    <div className='mx-auto  mx-w-lg bg-purple-200 my-12 p-8 rounded-xl flex flex-col gap-5 md:w-100 w-full h-100'>
       <h1 className='font-bold text-xl'>Generate your short URLs</h1>
       <div className='flex flex-col gap-2'>
 
@@ -66,3 +66,4 @@ function Shorten() {
 }
 
 export default Shorten
+
